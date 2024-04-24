@@ -1,8 +1,9 @@
+import SignUpForm from './components/SignUpForm';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hello</h1>
+      <SignUpForm />
     </div>
   );
 }
