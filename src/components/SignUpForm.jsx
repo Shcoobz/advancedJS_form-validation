@@ -3,6 +3,11 @@ import { handleChange, validatePasswords, handleSubmit } from '../utils/formUtil
 import FormField from './FormField';
 import Message from './Message';
 
+/**
+ * Represents a sign-up form component with input fields and submission handling.
+ * @const {Function} SignUpForm - Functional component for the sign-up form.
+ * @returns {JSX.Element} - JSX element representing the sign-up form.
+ */
 const SignUpForm = () => {
   const [user, setUser] = useState({
     name: '',
